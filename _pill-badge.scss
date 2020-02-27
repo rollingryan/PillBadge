@@ -1,0 +1,54 @@
+.pill-badge {
+  background-color: transparent;
+  font-size: 12px;
+  border: 1px solid;
+  color: inherit;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: none;
+  margin: 0 2px;
+  padding: 2px 4px;
+  border-radius: 50px; // Set to a rediculous size so we always receive a pill shape
+  min-width: 45px;
+  cursor: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &--blue {
+    color: blue;
+  }
+
+  &--brown {
+    color: brown;
+  }
+
+  &--green {
+    color: green;
+  }
+
+  &.--orange {
+    color: orange;
+  }
+
+  &--red {
+    color: red;
+  }
+
+  &--yellow {
+    color: yellow;
+  }
+
+  &--purple {
+    color: purple;
+  }
+
+  &--white {
+    color: white;
+  }
+
+  &--inverse {
+    background-color: inherit;
+    color: $white;
+  }
+}
